@@ -237,6 +237,7 @@ export default {
         this.backgroundImageUrl = `url('./images/${selectedImage}')`;
       }
     },
+
     toggleChangeBackgroundImage(data) {
       // console.log("data", typeof data);
       this.backgroundOption = data;
