@@ -6,7 +6,7 @@
       @turnOfRandomBackground="emitChangeBackgroundImage($event)"
       @showOrHideBullet="emitChangeBullets($event)"
     />
-
+    <AboutUs />
     <MySkills />
     <OurGallery />
     <TimeLineComponent />
@@ -23,6 +23,7 @@ import OurGallery from "../OurGallery.vue";
 import TimeLineComponent from "../TimeLineComponent.vue";
 import OurFeatures from "../OurFeatures.vue";
 import ContactUs from "../ContactUs.vue";
+import AboutUs from "../AboutUs.vue";
 export default {
   components: {
     AppNavbar,
@@ -33,6 +34,7 @@ export default {
     TimeLineComponent,
     OurFeatures,
     ContactUs,
+    AboutUs,
   },
   data() {
     return {
