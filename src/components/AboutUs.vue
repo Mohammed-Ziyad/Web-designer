@@ -27,18 +27,31 @@
               our clients to boost their growth by equipping them with high-end
               software solutions .
             </li>
-            <li class="mb-1"><h2>Goals</h2></li>
-            <li class="mb-3">
-              <i class="la la-check"></i>To reach a customer satisfaction rate
-              of +95% by end of 2022.
+            <li class="mb-1">
+              <h2>Goals</h2>
+            </li>
+            <li class=".text-Goals">
+              <font-awesome-icon
+                class="la la-check"
+                icon=" fa-check"
+                :class="{ 'fa-spin': isSpinning }"
+              />To reach a customer satisfaction rate of +95% by end of 2022.
             </li>
             <li class="mb-3">
-              <i class="la la-check"></i> Expand our scope to serve two
-              additional countries by end of 2022.
+              <font-awesome-icon
+                class="la la-check"
+                icon=" fa-check"
+                :class="{ 'fa-spin': isSpinning }"
+              />
+              Expand our scope to serve two additional countries by end of 2022.
             </li>
             <li class="mb-3">
-              <i class="la la-check"></i>To develop top adhered solutions to
-              recognized quality standards in software development.
+              <font-awesome-icon
+                class="la la-check"
+                icon=" fa-check"
+                :class="{ 'fa-spin': isSpinning }"
+              />To develop top adhered solutions to recognized quality standards
+              in software development.
             </li>
           </ul>
         </div>
@@ -120,6 +133,50 @@ export default {};
   padding-left: 30px;
   margin-bottom: 0.25rem !important;
 }
+.about-sc .list-unstyled {
+  .text-Goals {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 1rem !important;
+  }
+
+  .la-check {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--main-color);
+    font-size: 22px;
+    line-height: 20px;
+    font-family: "Line Awesome Free";
+    font-weight: 900;
+  }
+  .la,
+  .lab,
+  .lad,
+  .lal,
+  .lar,
+  .las {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  .la-check:before {
+    content: "\f00c";
+  }
+  .list-icon li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--main-color);
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
+
 .btn::before {
   content: attr(data-text);
   height: 100%;
