@@ -64,7 +64,7 @@ export default {
   padding-bottom: 50px;
   .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     .feat-box {
       display: flex;
       flex-direction: column;
