@@ -16,6 +16,5 @@ createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");
 const header = document.querySelector("header");
-
 const headroom = new Headroom(header);
 headroom.init();
