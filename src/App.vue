@@ -1,6 +1,7 @@
 <template>
   <app-layout>
     <router-view />
+    <!-- <slot></slot> -->
   </app-layout>
 </template>
 <script>

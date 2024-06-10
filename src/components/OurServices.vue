@@ -1,6 +1,6 @@
 <template>
   <div class="features">
-    <h2 class="main-heading">Our Features</h2>
+    <h2 class="main-heading">Services</h2>
     <div class="container">
       <div class="feat-box" v-for="feature in features" :key="feature.name">
         <img :src="feature.images" alt="" />

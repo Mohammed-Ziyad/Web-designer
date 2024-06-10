@@ -11,7 +11,10 @@
     <OurGallery />
     <TimeLineComponent />
     <OurFeatures />
+    <TestimonialsComponent />
     <ContactUs />
+    <FooterComponent />
+    <slot></slot>
   </div>
 </template>
 <script>
@@ -21,9 +24,12 @@ import NavBullets from "./NavBullets.vue";
 import MySkills from "../MySkills.vue";
 import OurGallery from "../OurGallery.vue";
 import TimeLineComponent from "../TimeLineComponent.vue";
-import OurFeatures from "../OurFeatures.vue";
+import OurFeatures from "../OurServices.vue";
 import ContactUs from "../ContactUs.vue";
+import TestimonialsComponent from "../TestimonialsComponent.vue";
 import AboutUs from "../AboutUs.vue";
+import FooterComponent from "./FooterComponent.vue";
+
 export default {
   components: {
     AppNavbar,
@@ -35,6 +41,8 @@ export default {
     OurFeatures,
     ContactUs,
     AboutUs,
+    TestimonialsComponent,
+    FooterComponent,
   },
   data() {
     return {
