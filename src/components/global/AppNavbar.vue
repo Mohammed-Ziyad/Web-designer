@@ -3,7 +3,7 @@
   <div class="landing-page" :style="{ backgroundImage: backgroundImageUrl }">
     <div class="overlay"></div>
     <div class="container">
-      <div class="header-area">
+      <header class="header-area headroom">
         <div class="logo">Special Design</div>
         <div class="links-container">
           <ul
@@ -24,7 +24,7 @@
             <span :class="{ menuActive: openMenu }"></span>
           </button>
         </div>
-      </div>
+      </header>
     </div>
     <div class="introduction-text">
       <h1>We Are <span>Graphic Designer</span></h1>
@@ -56,11 +56,11 @@
     .header-area {
       min-height: 70px;
       display: flex;
-      color: white;
+      color: #000;
       padding: 10px;
       align-items: center;
       justify-content: space-between;
-      position: relative;
+      position: fixed;
 
       .logo {
         width: 300px;
@@ -75,7 +75,7 @@
           gap: 15px;
           & a {
             display: block;
-            color: #eee;
+            color: #000;
             text-decoration: none;
             font-size: 16px;
             transition: 0.3s;
@@ -180,6 +180,23 @@
       margin: 0;
     }
   }
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+.headroom--top {
+  color: #fff !important;
+}
+.headroom--top .links a {
+  color: #fff !important;
 }
 </style>
 <script>
