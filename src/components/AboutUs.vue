@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="image-box">
-        <img src="/images/about-us.jpg" alt="" />
+        <img src="/images/animation.gif" alt="" />
       </div>
     </div>
   </div>
@@ -103,6 +103,8 @@ export default {};
       margin: auto;
       & img {
         width: 350px;
+        border-radius: 19px;
+        box-shadow: 2px 7px 7px -4px;
       }
     }
   }

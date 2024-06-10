@@ -18,40 +18,40 @@ export default {
     return {
       features: [
         {
-          name: "Development",
+          name: "Website Design & Development",
           images: "images/programming.svg",
           paragraphs:
-            "We are professional marketeers, we will do anything you imagine in no time.",
+            "Our team can develop the website within the schedule and with the best quality, which made the customer trust us.",
         },
         {
-          name: "Marketing",
-          images: "images/advertising.svg",
+          name: "Mobile App Development",
+          images: "images/smartphone.svg",
           paragraphs:
-            " We are professional marketeers, we will do anything you imagine in no time.",
+            "Our mobile app development team makes sure to stay at top technology, making sure to build applications with customer centric to focus the vision in short period of time.",
         },
         {
-          name: "Hosting",
-          images: "images/hosting-icon.svg",
+          name: "E-Commerce Development",
+          images: "images/shopping.png",
           paragraphs:
-            "We are professional marketeers, we will do anything you imagine in no time.",
+            "Our team Makes you to play with the console, you can stay at the top of your products, purchases, and prices at one go, even control your inventory in single click.",
         },
         {
-          name: "Mobile Develope",
-          images: "images/mobile-app.svg",
+          name: "Domain & Hosting",
+          images: "images/domain-hosting-img.png",
           paragraphs:
-            "We are professional marketeers, we will do anything you imagine in no time.",
+            "We Provide world class control on your web hosting where you be able manage local hosted servers in Abu dhabi.",
         },
         {
-          name: "Cloud and Servers",
-          images: "images/graphic-design.svg",
+          name: "Digital Marketing",
+          images: "images/digital_marketing.png",
           paragraphs:
-            "We are professional marketeers, we will do anything you imagine in no time.",
+            "Allowing you to make faster and better business decisions. Access your most regular data wherever required, and with-in real-time.",
         },
         {
-          name: "Seo",
-          images: "images/web-design.svg",
+          name: "SEO / SMO",
+          images: "images/seo.png",
           paragraphs:
-            "We are professional marketeers, we will do anything you imagine in no time.",
+            "Reach your ideal customers Ranks on the world's largest professional network. Lets people find you on top.",
         },
       ],
     };
