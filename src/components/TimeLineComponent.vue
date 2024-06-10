@@ -2,49 +2,52 @@
   <div class="timeline">
     <div class="container">
       <div class="timeline-content">
-        <div class="year">2018</div>
+        <div class="year">1</div>
         <div class="left">
           <div class="content">
-            <h3>Testing Heading</h3>
+            <h3>Requirement Gathering</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
-              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
-              nobis quam?
+              Our Pre-sales Consulant in Abu dhabi is avilable to understand the
+              development modules. He understands all the possibilites from the
+              client to make sure smooth development phase.
             </p>
           </div>
         </div>
+        <div class="year">2</div>
+
         <div class="right">
           <div class="content">
-            <h3>Testing Heading</h3>
+            <h3>Analysis Design</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
-              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
-              nobis quam?
+              We sit with the pre sales team to understand & to Investigate the
+              problem and requirements, rather than a solution. Design
+              emphasizes a conceptual solution that fulfills the requirements,
+              rather than its implementation.
             </p>
           </div>
         </div>
-        <div class="year">2016</div>
+        <div class="year">3</div>
         <div class="left">
           <div class="content">
-            <h3>Testing Heading</h3>
+            <h3>Quick Mock Up</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
-              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
-              nobis quam?
+              Design team shares the 2 segment of Mock Up theme to the client
+              for the confrimation on layouts and design. there will be static
+              design templates for the development based on the requirment. Once
+              the colour code is confired there will be accepteance stage.
             </p>
           </div>
         </div>
-        <div class="left">
+        <div class="year">4</div>
+
+        <div class="right">
           <div class="content">
-            <h3>Testing Heading</h3>
+            <h3>Content Audit</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
-              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
-              nobis quam?
+              Based on the requirment the conent team will design the conent for
+              the pages and other segment they make sure it SEO freindly conent
+              for region, Now we have 2 segment the design team member will
+              allocate the images that will be used for the sites.
             </p>
           </div>
         </div>
@@ -85,7 +88,7 @@ export default {};
 .right {
   width: calc(50% - 25px);
   /*25px : content::before(-20px) & content::before(-35px) */
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   position: relative;
 }
 .timeline .content {
@@ -129,18 +132,6 @@ export default {};
   box-sizing: initial;
 }
 
-.timeline .timeline-content .left::before,
-.right::before {
-  content: "";
-  width: 14px;
-  height: 14px;
-  background-color: #fff;
-  border: 3px solid var(--main-color);
-  position: absolute;
-  border-radius: 50%;
-  top: 20px;
-  box-sizing: initial;
-}
 .timeline .timeline-content .left::before {
   right: -35px;
 }
