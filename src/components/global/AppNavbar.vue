@@ -53,6 +53,7 @@
   }
   .container {
     position: relative;
+    border-top: solid var(--main-color) 4px;
     z-index: 999;
     .header-area {
       min-height: 70px;
