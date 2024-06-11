@@ -1,22 +1,46 @@
 <template>
   <!-- Start Nav Bullets -->
   <div class="nav-bullets" v-if="bulletContainer">
-    <div class="bullet" data-section=".about-us">
+    <div
+      class="bullet fadeInDownBig wow"
+      data-wow-delay="0.6s"
+      data-section=".about-us"
+    >
       <div class="tooltip">About Us</div>
     </div>
-    <div class="bullet" data-section=".skills">
+    <div
+      class="bullet fadeInDownBig wow"
+      data-wow-delay="0.5s"
+      data-section=".skills"
+    >
       <div class="tooltip">Our Skills</div>
     </div>
-    <div class="bullet" data-section=".gallery">
+    <div
+      class="bullet fadeInDownBig wow"
+      data-wow-delay="0.4s"
+      data-section=".gallery"
+    >
       <div class="tooltip">Our Gallery</div>
     </div>
-    <div class="bullet" data-section=".timeline">
+    <div
+      class="bullet fadeInDownBig wow"
+      data-wow-delay="0.3s"
+      data-section=".timeline"
+    >
       <div class="tooltip">Timeline</div>
     </div>
-    <div class="bullet" data-section=".features">
+    <div
+      class="bullet fadeInDownBig wow"
+      data-wow-delay="0.2s"
+      data-section=".features"
+    >
       <div class="tooltip">Features</div>
     </div>
-    <div class="bullet" data-section=".testimonials">
+    <div
+      class="bullet fadeInDownBig wow"
+      data-wow-delay="0.1s"
+      data-section=".testimonials"
+    >
       <div class="tooltip">Testimonials</div>
     </div>
   </div>

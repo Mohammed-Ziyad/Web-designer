@@ -1,11 +1,11 @@
 <template>
   <div class="features">
-    <h2 class="main-heading">Services</h2>
+    <h2 class="main-heading wow bounceInDown">Services</h2>
     <div class="container">
       <div class="feat-box" v-for="feature in features" :key="feature.name">
-        <img :src="feature.images" alt="" />
-        <h4>{{ feature.name }}</h4>
-        <p>
+        <img :src="feature.images" alt="" class="wow bounceInDown" />
+        <h4 class="wow fadeInRightBig">{{ feature.name }}</h4>
+        <p class="wow fadeInUpBig">
           {{ feature.paragraphs }}
         </p>
       </div>

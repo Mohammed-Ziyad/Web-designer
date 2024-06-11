@@ -3,9 +3,9 @@
   <div class="about-us">
     <div class="container">
       <div class="info-box">
-        <h2 class="main-heading">About Us</h2>
+        <h2 class="main-heading wow bounceInDown">About Us</h2>
         <!--About section  -->
-        <div class="about-sc">
+        <div class="about-sc wow fadeInLeftBig">
           <div class="section-title mb-4">
             <div class="title-effect">
               <div class="bar bar-top"></div>
@@ -56,7 +56,7 @@
           </ul>
         </div>
       </div>
-      <div class="image-box">
+      <div class="image-box wow fadeInRightBig">
         <img src="/images/animation.gif" alt="" />
       </div>
     </div>

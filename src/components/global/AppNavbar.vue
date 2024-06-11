@@ -26,8 +26,9 @@
         </div>
       </header>
     </div>
+
     <div class="introduction-text">
-      <h1>We Are <span>Graphic Designer</span></h1>
+      <h1 class="wow fadeInUp">We Are <span>Graphic Designer</span></h1>
       <p>Let's Get Started! Make your ideas a reality!</p>
       <p>Join Us On This Creative Journey And Discover What You Can Achieve.</p>
     </div>

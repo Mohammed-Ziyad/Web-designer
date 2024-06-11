@@ -1,11 +1,17 @@
 <template>
   <div class="skills" ref="skills">
     <div class="container">
-      <h2 class="main-heading">Our Skills</h2>
-      <div class="skill-box" v-for="skill in skills" :key="skill.name">
+      <h2 class="main-heading wow bounceInDown">Our Skills</h2>
+      <div
+        class="skill-box wow"
+        v-for="skill in skills"
+        :key="skill.name"
+        :class="{ fadeInLeftBig: skill.id % 2 == 0 }"
+      >
         <div class="skill-name">{{ skill.name }}</div>
         <div class="skill-progress">
           <span
+            class=""
             :style="skillStyle(skill)"
             :data-progress="skill.progress"
           ></span>
@@ -20,14 +26,14 @@ export default {
   data() {
     return {
       skills: [
-        { name: "HTML", progress: "95%", visible: false },
-        { name: "CSS", progress: "95%", visible: false },
-        { name: "Bootstrap", progress: "80%", visible: false },
-        { name: "TailwindCss", progress: "70%", visible: false },
-        { name: "JavaScript", progress: "70%", visible: false },
-        { name: "TypeScript", progress: "80%", visible: false },
-        { name: "Vue js", progress: "80%", visible: false },
-        { name: "Angular", progress: "70%", visible: false },
+        { name: "HTML", progress: "95%", visible: false, id: 1 },
+        { name: "CSS", progress: "95%", visible: false, id: 2 },
+        { name: "Bootstrap", progress: "80%", visible: false, id: 3 },
+        { name: "TailwindCss", progress: "70%", visible: false, id: 4 },
+        { name: "JavaScript", progress: "70%", visible: false, id: 5 },
+        { name: "TypeScript", progress: "80%", visible: false, id: 6 },
+        { name: "Vue js", progress: "80%", visible: false, id: 7 },
+        { name: "Angular", progress: "70%", visible: false, id: 8 },
       ],
     };
   },

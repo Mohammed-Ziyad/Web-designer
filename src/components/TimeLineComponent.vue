@@ -3,7 +3,7 @@
     <div class="container">
       <div class="timeline-content">
         <div class="year">1</div>
-        <div class="left">
+        <div class="left wow fadeInLeftBig">
           <div class="content">
             <h3>Requirement Gathering</h3>
             <p>
@@ -15,7 +15,7 @@
         </div>
         <div class="year">2</div>
 
-        <div class="right">
+        <div class="right wow fadeInRightBig">
           <div class="content">
             <h3>Analysis Design</h3>
             <p>
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="year">3</div>
-        <div class="left">
+        <div class="left wow fadeInLeftBig">
           <div class="content">
             <h3>Quick Mock Up</h3>
             <p>
@@ -40,7 +40,7 @@
         </div>
         <div class="year">4</div>
 
-        <div class="right">
+        <div class="right wow fadeInRightBig">
           <div class="content">
             <h3>Content Audit</h3>
             <p>

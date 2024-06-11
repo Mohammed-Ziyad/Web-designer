@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <div class="container">
-      <h2 class="main-heading">Our Gallery</h2>
+      <h2 class="main-heading wow bounceInDown">Our Gallery</h2>
       <div class="images-box">
         <img
           v-for="(image, index) in images"

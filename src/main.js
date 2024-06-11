@@ -4,6 +4,12 @@ import router from "./router";
 import store from "./store";
 import "./assets/css/styles.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
+//  Wow.js
+import "./assets/css/animate.css";
+import WOW from "./assets/js/wow.min.js";
+
+const wow = new WOW();
+wow.init();
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";

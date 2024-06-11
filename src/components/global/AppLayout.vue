@@ -14,7 +14,6 @@
     <TestimonialsComponent />
     <ContactUs />
     <FooterComponent />
-    <slot></slot>
   </div>
 </template>
 <script>
