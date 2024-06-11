@@ -14,6 +14,13 @@
     <TestimonialsComponent />
     <ContactUs />
     <FooterComponent />
+    <div class="up">
+      <a href="#">
+        <i>
+          <font-awesome-icon icon="fa-solid fa-angle-up" />
+        </i>
+      </a>
+    </div>
   </div>
 </template>
 <script>

@@ -5,6 +5,8 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
   }
   
   body {
@@ -102,3 +104,21 @@ body.of {
 ::-webkit-scrollbar-thumb:hover {
   background: #1abc9c;
 }
+.up {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--main-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center; 
+  color: #fff;
+  padding: 10px;
+}
+.up i {
+  color: white !important;
+}
+
